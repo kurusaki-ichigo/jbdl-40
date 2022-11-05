@@ -9,3 +9,11 @@ Course Contents for Java Backend
         *   Factory Design Pattern
 
 
+#### **_Week 2_**
+    Lecture 2 (Highlights):
+        *   OOPS Contd
+        *   Adapter and Factory Pattern re-visited
+        *   Object.class
+        *   Exception Handling
+        *   Collections and Implementation of HashMap and LRU cache.
+
