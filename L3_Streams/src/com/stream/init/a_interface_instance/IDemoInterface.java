@@ -1,4 +1,4 @@
-package com.stream.init.interface_instance;
+package com.stream.init.a_interface_instance;
 
 /**
  * which has only one method

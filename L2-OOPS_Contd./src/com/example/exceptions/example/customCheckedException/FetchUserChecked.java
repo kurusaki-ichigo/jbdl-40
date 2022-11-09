@@ -8,7 +8,22 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-public class FetchUserChecked {
+public final class FetchUserChecked {
+
+    /**
+     *
+     * final keyword
+     *  final class
+     *          --> memory
+     *          funtionalities are not required to be overridden
+     *          Integer.class
+     *                  -> dont want anyone to override ()
+     *
+     *  final -- keyword with respect variable  - once assigned , the value cannot be changed
+     *
+     *
+     *
+     */
 
     Map<String , UserInfo> idTOUserMap = new HashMap<>();
     public void findUser(String id) throws UserNotFoundException {
@@ -24,7 +39,14 @@ public class FetchUserChecked {
         try {
             fetchUser.findUser("10");
         } catch (UserNotFoundException e) {
-            System.out.println(e.getMessage());
+            System.out.println(" inside catch block ");
+//            System.exit(0);
+        } finally {
+
+            /**
+             *
+             */
+            System.out.println(" inside finally");
         }
     }
 
