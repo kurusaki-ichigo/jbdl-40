@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/L2-OOPS_Contd./L2-OOPS_Contd..iml" filepath="$PROJECT_DIR$/L2-OOPS_Contd./L2-OOPS_Contd..iml" />
       <module fileurl="file://$PROJECT_DIR$/L3_Streams/L3_Streams.iml" filepath="$PROJECT_DIR$/L3_Streams/L3_Streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L4_MultiThreading/L4_MultiThreading.iml" filepath="$PROJECT_DIR$/L4_MultiThreading/L4_MultiThreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/jbdl-40.iml" filepath="$PROJECT_DIR$/jbdl-40.iml" />
     </modules>
   </component>
