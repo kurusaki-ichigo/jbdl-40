@@ -17,3 +17,14 @@ Course Contents for Java Backend
         *   Exception Handling
         *   Collections and Implementation of HashMap and LRU cache.
 
+
+    Lecture 3 (Highlights):
+        *   Streams
+        *   Lamnda Expression
+
+#### **_Week 3_**
+    Lecture 4 (Highlights):
+        *   MultiThreading
+        *   ExecutorService and Tracing
+        *   Interview Question - Two threads one odd other even , print in sequential pattern
+
