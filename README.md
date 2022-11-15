@@ -28,3 +28,7 @@ Course Contents for Java Backend
         *   ExecutorService and Tracing
         *   Interview Question - Two threads one odd other even , print in sequential pattern
 
+    Lecture 5 (Highlights):
+        *   Maven and Importance
+        *   Interview Question - Singleton
+        *   Basics around Spring Boot
