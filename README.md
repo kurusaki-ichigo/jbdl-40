@@ -35,8 +35,15 @@ Course Contents for Java Backend
 
 #### **_Week 4_**
     Lecture 6 (Highlights):
-        *   Basic Spring Boot Application - dependency exclusion,  embedded tomcat , app properties etc
+        *   Basic Spring Boot Application - dependency exclusion (pom),  embedded tomcat , app properties etc
         *   Rest Api and Idempotency
         *   CRUD REST API 
         *   REST vs SOAP : (https://stackoverflow.com/questions/19884295/soap-vs-rest-differences)
         *   Spring Basics - IOC , Dependecy Injection etc.
+
+#### **_Week 5_**
+    Lecture 7 (Highlights):
+        *   SpringBoot Continued
+        *   Mysql vs No Sql
+        *   Distributed Lock , Master Slave - CDC
+
