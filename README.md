@@ -47,3 +47,5 @@ Course Contents for Java Backend
         *   Mysql vs No Sql
         *   Distributed Lock , Master Slave - CDC
 
+    Lecture 8 (Highlights):
+        *   Hibernate Mappings
