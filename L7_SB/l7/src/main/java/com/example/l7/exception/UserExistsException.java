@@ -1,6 +1,5 @@
 package com.example.l7.exception;
 
-import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor

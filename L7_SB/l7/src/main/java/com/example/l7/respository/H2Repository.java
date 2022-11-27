@@ -7,10 +7,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Repository;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.Statement;
+import java.sql.*;
+import java.util.Objects;
 import java.util.Optional;
 
 //@Repository(AppConstants.H2_REPOSITORY)
@@ -27,6 +25,20 @@ public class H2Repository implements IRepository , InitializingBean {
             ")  " ;
 
     private static final String INSERT_INTO_USER = " INSERT INTO `user` (`name`, `email`) values  (?,?) ";
+
+
+    public UserEntity findById(Long id) throws SQLException {
+        Statement statement = connection.createStatement();
+        ResultSet resultSet = statement.executeQuery(" select * from user where id = " + id);
+        UserEntity entity = null;
+       if (resultSet.next()){
+           entity = new UserEntity();
+           entity.setId(resultSet.getLong("id"));
+           entity.setName(resultSet.getString("name"));
+           entity.setEmail(resultSet.getString("email"));
+       }
+       return entity;
+    }
 
     @Override
     @SneakyThrows

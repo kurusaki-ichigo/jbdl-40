@@ -5,7 +5,6 @@ import lombok.Data;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
-import java.time.LocalDateTime;
 
 @Data
 public class CreateUserInfoRequest {
@@ -22,10 +21,14 @@ public class CreateUserInfoRequest {
      * @return
      */
     public UserEntity toUser(){
-        return UserEntity.builder()
-                .name(name)
-                .email(email)
-                .build();
+        UserEntity user = new UserEntity();
+        user.setName(name);
+        user.setEmail(email);
+        return user;
+//        return UserEntity.builder()
+//                .name(name)
+//                .email(email)
+//                .build();
     }
 
 }
