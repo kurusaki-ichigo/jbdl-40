@@ -52,3 +52,6 @@ Course Contents for Java Backend
 #### **_Week 6_**
     Lecture 9 (Highlights):
         *   Minor Project Wrap Up
+
+    Lecture 10 (Highlights):
+        *   Hibernate Many to Many Mappings
