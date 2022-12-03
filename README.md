@@ -49,3 +49,6 @@ Course Contents for Java Backend
 
     Lecture 8 (Highlights):
         *   Hibernate Mappings
+#### **_Week 6_**
+    Lecture 9 (Highlights):
+        *   Minor Project Wrap Up
