@@ -3,14 +3,23 @@ package com.example.L8.service;
 import com.example.L8.entities.Authors;
 import com.example.L8.entities.BookStatus;
 import com.example.L8.entities.Books;
+import com.example.L8.exception.BookNotAvailableException;
 import com.example.L8.exception.DuplicateBookException;
+import com.example.L8.models.BookFetchType;
 import com.example.L8.models.StatusCodes;
 import com.example.L8.repository.BooksRepository;
 import com.example.L8.requests.CreateNewBookRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
+import java.time.OffsetDateTime;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -25,6 +34,9 @@ public class BookService {
 
     @Autowired
     AuthorService authorService;
+
+    @Value("${fetch.all.pageSize}")
+    Integer pageSize;
 
     /**
      *                                  --> check if exists ( by isbn )
@@ -49,6 +61,26 @@ public class BookService {
         Books books = request.toBook();
         books.setAuthors(authors);
         return saveOrUpdate(books);
+    }
+
+
+    public List<Books> fetchBookByQueryParams(BookFetchType fetchType, String fetchTypeValue){
+        return switch (fetchType) {
+            case LIKE -> findAllBooksNameContaining(fetchTypeValue);
+            case ISBN -> repository.findAllByIsbn(fetchTypeValue);
+        };
+    }
+
+
+    public Page<Books> fetchAllBooks(int pageNumber){
+        Sort sort = Sort.by(Sort.Direction.ASC, "name");
+        PageRequest pageRequest = PageRequest.of(pageNumber, pageSize, sort);
+        return repository.findAllByCreationAtBefore(OffsetDateTime.now(), pageRequest);
+    }
+    public Optional<Books> findByUUId(String uuid){
+        UUID bookUuid = Optional.of(uuid).map(UUID::fromString)
+                .orElseThrow(() -> new BookNotAvailableException(StatusCodes.BOOK_UNAVAILABLE));
+        return repository.findById(bookUuid);
     }
 
     public List<Books> findAllBooksNameContaining(String contains){

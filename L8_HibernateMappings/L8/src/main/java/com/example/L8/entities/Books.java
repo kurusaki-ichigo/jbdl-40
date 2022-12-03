@@ -55,6 +55,9 @@ public class Books {
      *
      *
      */
+    /**
+     * Eager fetch strategy
+     */
     @ManyToOne
     @JoinColumn
     private Authors authors;

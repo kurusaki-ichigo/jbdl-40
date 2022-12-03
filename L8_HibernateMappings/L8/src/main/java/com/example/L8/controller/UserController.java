@@ -23,6 +23,31 @@ public class UserController {
     @Autowired
     UserService userService;
 
+    /**
+     *
+     *      What is the request flow
+     *
+     *              embedded server
+     *
+     *                  (tomcat is being embedded in SPringboot Application)
+     *                  (dispatcherServlet) --> thread started in TOMCAT
+     *                                          ----> REquestMapping Handler Mapping
+     *                                                                      --> which method to call
+     *
+     *              who handles this conversion and what library is being used
+     *                                                      (JAckson)
+     *  {
+     *      Json format             ------> converted to JAVA OBJECT
+     *  }
+     *
+     *  JSON                        <-------                 (Java Object)
+     *                                                    (which library -- ? )
+     *                                                    conversion of java to json
+     *                                                         (JAckson)
+     *
+     * @param request
+     * @return
+     */
     @PostMapping(value = "/user", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> createNewUser(@Valid @RequestBody CreateNewUserRequest request){
         return responseGenerator.generateResponse(userService.createNewUser(request), HttpStatus.CREATED);

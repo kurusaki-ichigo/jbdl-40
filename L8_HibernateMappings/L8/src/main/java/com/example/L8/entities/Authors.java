@@ -1,5 +1,7 @@
 package com.example.L8.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -31,8 +33,11 @@ public class Authors {
 
     private String email;
 
-
+    /**
+     * Lazy fetch strategy
+     */
     @OneToMany(mappedBy = "authors")
+    @JsonIgnore
     List<Books> associateBooks;
 
 

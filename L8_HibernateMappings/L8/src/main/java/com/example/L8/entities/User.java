@@ -1,5 +1,6 @@
 package com.example.L8.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
@@ -32,6 +33,7 @@ public class User {
      * fetch strategy
      */
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
+    @JsonIgnore
     private List<Order> orderList;
 
     @CreationTimestamp

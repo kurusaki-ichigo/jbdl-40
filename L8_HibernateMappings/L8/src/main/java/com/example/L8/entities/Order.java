@@ -1,5 +1,6 @@
 package com.example.L8.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.UuidGenerator;
@@ -37,6 +38,7 @@ public class Order {
 
 
     @OneToMany(mappedBy = "order")
+    @JsonIgnore
     List<Books> booksList;
 
 
