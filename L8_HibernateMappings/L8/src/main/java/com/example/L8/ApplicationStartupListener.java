@@ -30,7 +30,7 @@ public class ApplicationStartupListener implements ApplicationListener<Applicati
 //                .build();
 //        Response response = client.newCall(request).execute();
 //        log.info(" response received {} ", response);
-        String restTemplateResponse = restTemplate.getForObject("http://localhost:8080/book?fetchType=ISBN&fetchTypeValue=389283naknd", String.class);
-        log.info(" response received {} ", restTemplateResponse);
+//        String restTemplateResponse = restTemplate.getForObject("http://localhost:8080/book?fetchType=ISBN&fetchTypeValue=389283naknd", String.class);
+//        log.info(" response received {} ", restTemplateResponse);
     }
 }
