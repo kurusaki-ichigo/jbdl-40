@@ -77,5 +77,5 @@ Course Contents for Java Backend
     Lecture 17:                 25th Dec
         *   Major Project - Ewallet
 #### **_Week 10_**
-    Lecture 18:                 30th Dec
+    Lecture 18:                 29th Dec
         *   Singing Off. (Mixed Doubt Session and Reviews) 
