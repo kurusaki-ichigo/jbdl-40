@@ -55,3 +55,27 @@ Course Contents for Java Backend
 
     Lecture 10 (Highlights):
         *   Hibernate Many to Many Mappings
+#### **_Week 7_**
+    Lecture 11 (Highlights):    10th Dec
+        *   Cache - Ehcache + Redis
+
+    Lecture 12:                 11th Dec
+        *   Kafka
+#### **_Week 8_**
+    Lecture 13 (Highlights):    16th Dec
+        *   Doubt Session + Revision
+
+    Lecture 14 (Highlights):     17th Dec
+        *   Spring Security Part 1
+
+    Lecture 15:                  18th Dec
+        *   Spring Security Part 2
+#### **_Week 9_**
+    Lecture 16:                  24th Dec
+        *   Major Project - Ewallet
+
+    Lecture 17:                 25th Dec
+        *   Major Project - Ewallet
+#### **_Week 10_**
+    Lecture 18:                 30th Dec
+        *   Singing Off. (Mixed Doubt Session and Reviews) 
