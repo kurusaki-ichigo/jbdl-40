@@ -63,7 +63,7 @@ Course Contents for Java Backend
         *   Kafka
 #### **_Week 8_**
     Lecture 13 (Highlights):    16th Dec
-        *   Doubt Session + Revision
+        *   Kafka Implementation + @Tests + Doubt Session/Revision
 
     Lecture 14 (Highlights):     17th Dec
         *   Spring Security Part 1
