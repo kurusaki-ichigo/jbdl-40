@@ -61,6 +61,9 @@ Course Contents for Java Backend
 
     Lecture 12:                 11th Dec
         *   Kafka
+        *   BookMyShow design
+        *   IRCTC design
+    
 #### **_Week 8_**
     Lecture 13 (Highlights):    16th Dec
         *   Kafka Implementation + @Tests + Doubt Session/Revision
