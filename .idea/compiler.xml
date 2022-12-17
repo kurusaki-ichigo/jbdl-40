@@ -10,11 +10,9 @@
         <module name="mapping" />
         <module name="cache" />
         <module name="maven.example" />
-        <module name="intro" />
         <module name="l7" />
         <module name="communication" />
         <module name="L8" />
-        <module name="user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
