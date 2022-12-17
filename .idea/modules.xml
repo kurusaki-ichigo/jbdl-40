@@ -7,11 +7,14 @@
       <module fileurl="file://$PROJECT_DIR$/L4_MultiThreading/L4_MultiThreading.iml" filepath="$PROJECT_DIR$/L4_MultiThreading/L4_MultiThreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/L5_a_basics/L5_a_basics.iml" filepath="$PROJECT_DIR$/L5_a_basics/L5_a_basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/L8_HibernateMappings/L8/L8.iml" filepath="$PROJECT_DIR$/L8_HibernateMappings/L8/L8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L11_Cache/cache/cache.iml" filepath="$PROJECT_DIR$/L11_Cache/cache/cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/L6_SpringBoot/communication/communication.iml" filepath="$PROJECT_DIR$/L6_SpringBoot/communication/communication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L_12_Kafka/Why Kafka/intro/intro.iml" filepath="$PROJECT_DIR$/L_12_Kafka/Why Kafka/intro/intro.iml" />
       <module fileurl="file://$PROJECT_DIR$/jbdl-40.iml" filepath="$PROJECT_DIR$/jbdl-40.iml" />
       <module fileurl="file://$PROJECT_DIR$/L7_SB/l7/l7.iml" filepath="$PROJECT_DIR$/L7_SB/l7/l7.iml" />
       <module fileurl="file://$PROJECT_DIR$/L10_ManyToManyMappings/mapping/mapping.iml" filepath="$PROJECT_DIR$/L10_ManyToManyMappings/mapping/mapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/L5_a_basics/maven.example/maven.example.iml" filepath="$PROJECT_DIR$/L5_a_basics/maven.example/maven.example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L_12_Kafka/Why Kafka/user/user.iml" filepath="$PROJECT_DIR$/L_12_Kafka/Why Kafka/user/user.iml" />
     </modules>
   </component>
 </project>
