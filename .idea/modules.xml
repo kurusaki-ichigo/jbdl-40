@@ -13,6 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/L7_SB/l7/l7.iml" filepath="$PROJECT_DIR$/L7_SB/l7/l7.iml" />
       <module fileurl="file://$PROJECT_DIR$/L10_ManyToManyMappings/mapping/mapping.iml" filepath="$PROJECT_DIR$/L10_ManyToManyMappings/mapping/mapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/L5_a_basics/maven.example/maven.example.iml" filepath="$PROJECT_DIR$/L5_a_basics/maven.example/maven.example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L14_Spring_Security_1/order/order.iml" filepath="$PROJECT_DIR$/L14_Spring_Security_1/order/order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L14_Spring_Security_1/security 2/security.iml" filepath="$PROJECT_DIR$/L14_Spring_Security_1/security 2/security.iml" />
     </modules>
   </component>
 </project>

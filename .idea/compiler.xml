@@ -9,10 +9,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mapping" />
         <module name="cache" />
+        <module name="security" />
         <module name="maven.example" />
         <module name="l7" />
         <module name="communication" />
         <module name="L8" />
+        <module name="order" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +25,8 @@
       <module name="L8" target="17" />
       <module name="mapping" target="17" />
       <module name="maven.example" target="11" />
+      <module name="order" target="17" />
+      <module name="security" target="17" />
       <module name="user" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -34,6 +38,8 @@
       <module name="intro" options="-parameters" />
       <module name="l7" options="-parameters" />
       <module name="mapping" options="-parameters" />
+      <module name="order" options="-parameters" />
+      <module name="security" options="-parameters" />
       <module name="user" options="-parameters" />
     </option>
   </component>
