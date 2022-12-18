@@ -56,22 +56,22 @@ Course Contents for Java Backend
     Lecture 10 (Highlights):
         *   Hibernate Many to Many Mappings
 #### **_Week 7_**
-    Lecture 11 (Highlights):    10th Dec
+    Lecture 11 (Highlights):    
         *   Cache - Ehcache + Redis
 
-    Lecture 12:                 11th Dec
+    Lecture 12:                
         *   Kafka
         *   BookMyShow design
         *   IRCTC design
     
 #### **_Week 8_**
-    Lecture 13 (Highlights):    16th Dec
+    Lecture 13 (Highlights):    
         *   Kafka Implementation + @Tests + Doubt Session/Revision
 
-    Lecture 14 (Highlights):     17th Dec
+    Lecture 14 (Highlights):     
         *   Spring Security Part 1
 
-    Lecture 15:                  18th Dec
+    Lecture 15:                 
         *   Spring Security Part 2
 #### **_Week 9_**
     Lecture 16:                  24th Dec
