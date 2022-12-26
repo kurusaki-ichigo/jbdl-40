@@ -81,4 +81,6 @@ Course Contents for Java Backend
         *   Major Project - Ewallet
 #### **_Week 10_**
     Lecture 18:                 29th Dec
-        *   Singing Off. (Mixed Doubt Session and Reviews) 
+        *   Spring Security - OAuth 2
+        *   Improvements in Major Project
+        *   Singing Off. 
